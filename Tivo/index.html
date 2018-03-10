@@ -1,0 +1,74 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <h1>Tivo Challenge</h1>
+        <div class="text-center">
+            <label for="startDate"> Pick Date : </label>
+            <input name="startDate" id="startDate" class="date-picker"/>
+        </div>
+        <div class="text-center" id = buttons>
+
+            <div class="text-center btn-group" role="group" aria-label="selection">
+                <button id= "all" type="button" class="btn btn-secondary">Full Data</button>
+                <button id= "Active"type="button" class="btn btn-secondary">Active Data</button>
+            </div>
+
+        </div>
+
+        <div class="text-center" id="legendDiv">
+            <ul class="legend ">
+                <li><span class="Robert"></span> Robert </li>
+                <li><span class="Orange"></span> Orange </li>
+                <li><span class="Volt"></span> Volt </li>
+                <li><span class="Ink"></span> Ink </li>
+
+            </ul>
+        </div>
+
+        <div class = "container">
+            <canvas id="myChart" width="1000" height="500"></canvas>
+        </div>
+
+
+        <div class = "container">
+        <canvas id="line-chart-tango" width="1000" height="500"></canvas>
+        </div>
+
+
+        <div class = "container">
+            <canvas id="line-chart-india" width="1000" height="500"></canvas>
+        </div>
+
+        <div class = "container">
+            <canvas id="line-chart-victor" width="1000" height="500"></canvas>
+        </div>
+
+        <div class = "container">
+            <canvas id="line-chart-oscar" width="1000" height="500"></canvas>
+        </div>
+
+        <script src="js/main.js"></script>
+
+    </body>
+</html>

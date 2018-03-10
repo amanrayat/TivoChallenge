@@ -1,0 +1,60 @@
+
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    padding-top: 20px;
+}
+
+#buttons{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+.btn-group{
+    text-align: center;
+}
+button {
+     padding-left: auto;
+ }
+
+.legend { display: inline-block;  list-style: none; }
+.legend li { float: left; margin-right: 10px; }
+.legend span { border: 1px solid #ccc; float: left; width: 12px; height: 12px; margin: 2px; }
+
+.Robert{background-color: rgba(255,99,132,.2)}
+.Orange { background-color: rgba(54, 162, 235, 0.2); }
+.Volt { background-color: rgba(255, 206, 86, 0.2); }
+.Ink { background-color: rgba(75, 192, 192, 0.2); }
+
+
+.legend{
+            display: inline;
+            margin: 40px;
+        }
+
+#legendDiv{
+    display: none;
+    margin: 40px;
+}
